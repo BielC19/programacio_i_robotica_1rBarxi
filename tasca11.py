@@ -1,0 +1,1 @@
+#Fes un programa que converteixi un caràcter al seu valor enter d'ASCII. I després t'escrigui per pantalla: "Tu conversión esta hecha" "Señor X"

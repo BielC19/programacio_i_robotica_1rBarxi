@@ -1,0 +1,1 @@
+#Fes un programa que donades dues mesures en reals d'una habitació (amplada i llargada), calculi quantes rajoles necessites enteres necessites comprar per fer l'habitació. Les rajoles mesuren 0,6m de costat i són quadrades.
