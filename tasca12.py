@@ -13,4 +13,4 @@ valor = input("introdueix una lletra i te la canviara de majúscula a minuscula 
 if (valor>=65 and valor<=60):
     print(f"La convercio de majúscula a minuscula es {chr(ord(valor)+diferencia)}")
 else:
-    print(f"La convercio de minusucla a majúscula es {chr(ord(valor)diferencia)}")
+    print(f"La convercio de minusucla a majúscula es {chr(ord(valor)-diferencia)}")
