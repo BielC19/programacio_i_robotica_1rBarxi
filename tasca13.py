@@ -1,31 +1,24 @@
 
-n = 1 
-m = 5
-d = 2.5
-e = 0.8
-c1 = 'a'
-c2 = 'b'
-s1 = "hi"
-s2 = "ho"
-n < m
-d < 2.5
-"ho' == s2
-e > 1.0
-d > (e + 1.0)
-m < int(d)
-n == (m - 4)
-int(c1) > 90
-s1 == "sl"
-c1 >= 'a'
-m >= 5
-int (d + e) > 3
-c2 == 'c'
-s1 >= s2
-int (c2) != 98
-s2 >= "hola"
-s1 == "hi there!"
-e != d
-s1 != sl
-n + 2 < m - 3
-3 < int (d + e)
-"c1" == s2
+n, m, d, e, c1, c2, s1, s2 = 1, 5, 2.5, 0.8, 'a', 'b', "hi", "ho"
+print("\n", n < m)
+print("\n", d < 2.5)
+print("\n", 'ho' == s2)
+print("\n", e > 1.0)
+print("\n", d > (e + 1.0))
+print("\n", m < int(d))
+print("\n", n == (m - 4))
+print("\n", len(c1) > 90)
+print("\n", s1 == "sl")
+print("\n", c1 >= 'a')
+print("\n", m >= 5)
+print("\n", int (d + e) > 3)
+print("\n", c2 == 'c')
+print("\n", s1 >= s2)
+print("\n", len(c2) != 98)
+print("\n", s2 >= "hola")
+print("\n", s1 == "hi there!")
+print("\n", e != d)
+print("\n", s1 != s1)
+print("\n", n + 2 < m - 3)
+print("\n", 3 < int (d + e))
+print("\n", "c1" == s2)
