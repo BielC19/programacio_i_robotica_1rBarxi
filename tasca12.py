@@ -7,3 +7,10 @@ print(f"\n La teva lletra minuscula es en majuscula {minuscula_a_majuscula} i el
 majuscula = input("Introdueix un caracter en majúscula: ")      #Demana el valor en majúscula
 majuscula_a_minuscula = chr(ord(majuscula)+diferencia)          #canvia de majúscula a minuscula
 print(f"\n La teva lletra majuscula en minuscula {majuscula_a_minuscula} i el codi acsii es {ord(majuscula)+diferencia}")       #retorna el codi
+
+
+valor = input("introdueix una lletra i te la canviara de majúscula a minuscula o al reves")
+if (valor>=65 and valor<=60):
+    print(f"La convercio de majúscula a minuscula es {chr(ord(valor)+diferencia)}")
+else:
+    print(f"La convercio de minusucla a majúscula es {chr(ord(valor)diferencia)}")
