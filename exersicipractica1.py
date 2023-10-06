@@ -8,9 +8,9 @@
 preu_suc = 2.5
 preu_batut = 3.75
 impost = 0.1
-cuantitat_sucs = int(input("Introdueix els productes que vols comprar separats per comes."))
-cuantitat_batuts = int(input("Introdueix els batuts que vols comprar separats per comes"))
+cuantitat_sucs = int(input("Introdueix els productes que vols comprar separats per comes: "))
+cuantitat_batuts = int(input("Introdueix els batuts que vols comprar separats per comes: "))
 
 sense_impost = preu_suc*cuantitat_sucs + preu_batut*cuantitat_batuts
 amb_impost = sense_impost + sense_impost*impost
-print(f"Preu de la comanda sense impost es de {sense_impost}€ i amb impostos seria {amb_impost}€")
+print(f"Preu de la comanda sense impost es de {sense_impost}€\ni amb impostos seria {amb_impost}€")
