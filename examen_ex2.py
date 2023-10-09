@@ -8,9 +8,15 @@
 #● Valor numèric ASCII del caracter - 10
 #4- Mostrar a l’usuari els caràcters encriptats amb els caràcters d’ASCII nous.
 
+#1
 lletres = "ABCD"
 lletra_a_lletra = []
-
 for lletra in lletres:
     lletra_a_lletra.append(lletra)
-    print(lletra_a_lletra)
+
+print(lletra_a_lletra)
+
+#2
+lletra_a_lletra_ascii = []
+for caracter in lletra_a_lletra:
+    lletra_a_lletra_ascii.appened(ord(caracter + 50))

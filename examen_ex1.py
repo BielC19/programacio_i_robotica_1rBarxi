@@ -24,17 +24,15 @@ altura_picina_dm = altura_picina * 10       #passes l'altura a dm
 
 calculacio_volum = numero_pi * (diametre_picina_dm/2)**2 * altura_picina_dm     #calculas el volum de la picina
 
-print(f"\n\nA la picina i caven {calculacio_volum}l")                       #dem
+print(f"\n\nA la picina i caven {calculacio_volum}l")                       #imprimeix els litres que hio caven a la picina
 #4
 mida_galleda = 8
-numero_galledes = calculacio_volum//8
-print("4")
-print(f"\nNecesites {numero_galledes} galledes i et falten {calculacio_volum%8} lites per omplira la teva picina de {calculacio_volum} litres")
+numero_galledes = calculacio_volum//8                       #convereteix de litres a galledes
+print(f"\nNecesites {numero_galledes} galledes i et falten {calculacio_volum%8} lites per omplira la teva picina de {calculacio_volum} litres")         #torna les galles, els litres sobrants i els dtotals de la picina
 #5
-galledes_hora = numero_galledes//60
-galledes_hora_sobrants = numero_galledes%60
-min_restant = galledes_hora_sobrants
-print("5")
-print(f"\nCalcen {galledes_hora} hores i {min_restant} minuts per omplir la")
+galledes_hora = numero_galledes//60                 #passa de galledes a hores
+galledes_hora_sobrants = numero_galledes%60         #minuts sobrants
+min_restant = galledes_hora_sobrants                #minuts sobrants
+print(f"\nCalcen {galledes_hora} hores i {min_restant} minuts per omplir la")       #torna el numero de hores que trigues a omplir la picina i els minuts restants
 #6
 print(f"\nFins aviat {nom_usuari}.")
