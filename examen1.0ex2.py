@@ -16,5 +16,5 @@ segon = (numeros//100)%10                   #et desempaqueta el segon valor
 tercer = (numeros//10)%10                   #et desempaqueta el tercer valor
 quart = numeros%10                  #et desempaqueta el quart valor
 
-numero_nou = (primer*10 + tercer)*100 + (segon*10 + quart)                  #t'agunta els numeros
+numero_nou = (primer*10 + tercer)*100 + (segon*10 + quart)                  #t'agunta els numeros amb el nou ordre
 print(f"El caracter a partir dels numeros inicals es: {chr(numero_nou)}")                   #et retrona el caracter
