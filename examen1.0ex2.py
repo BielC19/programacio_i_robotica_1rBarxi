@@ -9,12 +9,12 @@
 #● Valor numèric ASCII del caracter - 5
 #4- Mostrar a l’usuari els caràcters encriptats amb els caràcters d’ASCII nous.
 
-numeros = int(input("Introdueix 4 numeros junts: "))
+numeros = int(input("Introdueix 4 numeros junts: "))                    #aqui et demana els valors
 
-primer = numeros//1000
-segon = (numeros//100)%10
-tercer = (numeros//10)%10
-quart = numeros%10
+primer = numeros//1000                  #et desempaqueta el primer valor
+segon = (numeros//100)%10                   #et desempaqueta el segon valor
+tercer = (numeros//10)%10                   #et desempaqueta el tercer valor
+quart = numeros%10                  #et desempaqueta el quart valor
 
-numero_nou = (primer*10 + tercer)*100 + (segon*10 + quart)
-print(chr(numero_nou))
+numero_nou = (primer*10 + tercer)*100 + (segon*10 + quart)                  #t'agunta els numeros
+print(f"El caracter a partir dels numeros inicals es: {chr(numero_nou)}")                   #et retrona el caracter
