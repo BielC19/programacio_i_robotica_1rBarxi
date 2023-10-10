@@ -9,6 +9,11 @@
 #● Valor numèric ASCII del caracter - 5
 #4- Mostrar a l’usuari els caràcters encriptats amb els caràcters d’ASCII nous.
 
-numeros = input("Introdueix 4 caracters junts: ")
+numeros = int(input("Introdueix 4 numeros junts: "))
 
-primer = numeros
+primer = chr(numeros//1000)
+segon = chr((numeros//100)%10)
+tercer = chr((numeros//10)%10)
+quart = chr(numeros%10)
+
+print(primer, tercer, "   ", segon, quart)
