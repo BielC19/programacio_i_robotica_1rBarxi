@@ -16,4 +16,4 @@ segon = chr((numeros//100)%10)
 tercer = chr((numeros//10)%10)
 quart = chr(numeros%10)
 
-print(primer, tercer, "   ", segon, quart)
+print(primer, tercer, "\a", segon, quart)
