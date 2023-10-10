@@ -11,9 +11,10 @@
 
 numeros = int(input("Introdueix 4 numeros junts: "))
 
-primer = chr(numeros//1000)
-segon = chr((numeros//100)%10)
-tercer = chr((numeros//10)%10)
-quart = chr(numeros%10)
+primer = numeros//1000
+segon = (numeros//100)%10
+tercer = (numeros//10)%10
+quart = numeros%10
 
-print(primer, tercer, "\a", segon, quart)
+numero_nou = (primer*10 + tercer)*100 + (segon*10 + quart)
+print(chr(numero_nou))
