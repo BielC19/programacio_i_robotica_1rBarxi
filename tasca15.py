@@ -6,8 +6,8 @@ y = float(input("Introdueix la segona coordenada: "))
 
 quadrat = 1
 
-comprovacio_X = x <= quadrat 
-comprovacio_Y = y <= quadrat
+comprovacio_X = x <= quadrat and x >= 0
+comprovacio_Y = y <= quadrat and y >= 0
 cocmprovacioTot = comprovacio_X and comprovacio_Y
 print(f"\nLa cortenada x es '{comprovacio_X}' dints del quadrat.")
 print(f"La cortenada y es '{comprovacio_Y}' dints del quadrat.")
