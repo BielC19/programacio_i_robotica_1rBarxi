@@ -1,5 +1,6 @@
 #Fes un programa que llegeixi 2 números reals que són les coordenades x i d'un punt del pla 2D.
 #El programa ha d'escriure  1 (dins) o 0(fora) segons si el punt es troba dins o fora del quadrat següent.
+
 x = float(input("Introdueix la primera coordenada: "))
 y = float(input("Introdueix la segona coordenada: "))
 

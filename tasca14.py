@@ -16,6 +16,7 @@ s1 > "aaa" and s1 < "zzz",      #True
 s1 != 52 and s1 == "aab",       #True
 a // b == 0 and a % b == d      #Flase
 
+
 print(a > 1 and b < 2, "\n",
 c == '7' and d == 'd', "\n",
 c != 'a' and c != 'd', "\n",
