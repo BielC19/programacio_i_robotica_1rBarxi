@@ -10,8 +10,8 @@ if HH==24 and MM==60 and SS==60:
     MM = 00
     SS = 00
 elif HH>=24 and MM>=60 and SS>=60:
-    HH = HH + (HH-24)
-    MM = 00 + (MM-60)
-    SS = 00 + (SS-60)
+    HH = 24-HH
+    MM = MM-60
+    SS = SS-60
 
 print(f"La hora es {HH}:{MM}:{SS}")
