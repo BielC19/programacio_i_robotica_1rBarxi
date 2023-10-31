@@ -2,7 +2,7 @@
 #Utilitzant aquesta idea, fes un programa que llegeixi un número i et digui quantes xifres té.
 #Es considera que el 0 també té una xifra
 
-numero = int(input("Introdueix un nombre: "))
+numero = abs(int(input("Introdueix un nombre: ")))
 n = 0
 if numero==0:
     print("El numeo de numeros que has introduit es 1")
